@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="ecomm.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>ShopIT</h2>
+      <ul>
+        <li><a href="#electronics" target="_blank">Electronics</a></li>
+        <li><a href="#motors" target="_parent">Motors</a></li>
+        <li><a href="#Fashion" target="_self">Fashion</a></li>
+        <li><a href="#sports" target="_top">Sports</a></li>
+      </ul>
+    </nav>
+    <!--<section>
+      <div class="flex1">
+        <img class="image-prod" src="https://m.media-amazon.com/images/I/91oF9q-jE5L.jpg" ></img>
+        <div> Upto 25% off </div>
+      </div>
+    <div class="flex1">
+      <img class="image-prod" src="https://m.media-amazon.com/images/I/91oF9q-jE5L.jpg" loading="lazy"></img>
+      <div> Upto 25% off </div>
+    </div>
+  </section>
+    <main>
+      <img
+        class="image-prod"
+        src="https://m.media-amazon.com/images/I/91oF9q-jE5L.jpg"
+        alt="hp 15 thin" loading="lazy"
+      />
+      <img
+        class="image-prod"
+        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+        alt="macbook"
+      />
+      <img
+        class="image-prod"
+        src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+        alt="Dell latitude 7530"
+      />
+    </main> -->
+    <main>
+      <div class="img">
+        <img
+              src="data:image/jpeg;base64,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"
+            alt="Dell latitude 7530"
+          />
+      </div>
+      <div class="sector">  
+          <div class="container">
+            <img
+              src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+            alt="Dell latitude 7530"
+          />
+            <p>upto 25% off</p>
+            <button>Shop Now</button>            
+        </div>
+        <div class="container">
+          <img
+            src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+          alt="Dell latitude 7530"
+        />
+          <p>upto 25% off</p>
+          <button>Shop Now</button>            
+      </div>
+      <div class="container">
+        <img
+          src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+        alt="Dell latitude 7530"
+      />
+        <p>upto 25% off</p>
+        <button>Shop Now</button>            
+    </div>
+    <div class="container">
+      <img
+        src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+      alt="Dell latitude 7530"
+    />
+      <p>upto 25% off</p>
+      <button>Shop Now</button>            
+  </div>
+  <div class="container">
+    <img
+      src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+    alt="Dell latitude 7530"
+  />
+    <p>upto 25% off</p>
+    <button>Shop Now</button>            
+</div>
+<div class="container">
+  <img
+    src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full"
+  alt="Dell latitude 7530"
+/>
+  <p>upto 25% off</p>
+  <button>Shop Now</button>            
+</div>
+        <div>
+
+        </div>
+      </div>   
+      </main>   
+    </main>
+  </body>
+</html>
